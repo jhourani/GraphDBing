@@ -1,0 +1,12 @@
+protein INCREASES health
+alchohol DECREASES intelligence
+water INCREASES urine_flow
+lion EATS antelope
+antelope INCREASES hair_growth
+smoking DECREASES health
+bear LOVES fish
+lion HATES antelope
+bear EATS lions
+bear LOVES lions
+running DECREASES urine_flow
+running INCREASES health
