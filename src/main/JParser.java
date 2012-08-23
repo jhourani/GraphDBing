@@ -13,7 +13,7 @@ public class JParser {
 	private String term1;
 	private String relation;
 	private String term2;
-	private int lines;
+	private int num_lines;
 	private List<Statement> list;
 	private Scanner scan;
 	
@@ -29,7 +29,7 @@ public class JParser {
 	}
 	
 	public int getLineNumbers(){
-		return lines;
+		return num_lines;
 	}
 	
 	public void makeStatements(){
@@ -40,8 +40,8 @@ public class JParser {
 			relation = scan.next();
 			term2 = scan.next();
 			list.add(new Statement(term1, term2, relation));
-			//out.println("term1:" +term1+ "term2: " +term2+ "relationship: " +relation);
-			lines++;
+			out.println("\nterm1:" +term1+ " term2:" +term2+ " relationship:" +relation);
+			num_lines++;
 		}
 	}
 	

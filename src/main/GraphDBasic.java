@@ -50,6 +50,7 @@ public class GraphDBasic {
 	    EATS,
 	    LOVES,
 	    HATES,
+	    FRIENDS,
 	}
 	
 	public static void main(String[] args){

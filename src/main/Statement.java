@@ -38,4 +38,8 @@ public class Statement {
 		else
 			return null;
 	}
+	
+	public String toString() {
+		return term1 + " " + r + " " +term2;
+	}
 }
